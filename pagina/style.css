@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+}
+
+body {
+     background-color: #ffffff;
+     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.swiper-button-prev::after {
+     font: size 25px;
+}
+
+.swiper-button-next::after {
+     font: size 25px;
+}
+
+.swiper-button-next {
+     color: #DB241B;
+}
+
+.swiper-button-prev {
+     color: #DB241B;
+}
+
+.swiper-pagination-bullet {
+     background-color: #ffffff;
+     opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+     background-color: #DB241B;
+}
+
+.menu {
+     position: absolute;
+     top: 0px;
+     left: 0;
+     right: 0;
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     padding: 0rem 1;
+     background-color: #103e70;
+
+}
+
+.menu-1 {
+     margin-right: 90px;
+}
+
+.logo-1 {
+     width: 290px;
+}
+
+.socials {
+     display: flex;
+}
+
+.social {
+     margin: 0 10px;
+     height: 40px;
+     width: 40px;
+     border: 1px solid #DB241B;
+     border-radius: 50%;
+}
+
+.social:hover {
+     background-color: #DB241B;
+}
+
+.social img {
+     margin: 8px 0 0 10px;
+}
+
+.menu .navbar ul li {
+     position: relative;
+     float: left;
+}
+
+.menu .navbar ul li a {
+     font-size: 18px;
+     padding: 20px;
+     color: #ffffff;
+     display: flex;
+
+     margin: 0 1rem;
+}
+
+.menu .navbar ul li a:hover {
+     color: #DB241B;
+}
+
+#menu {
+     display: none;
+}
+
+.menu-icono {
+     width: 25px;
+}
+
+.menu label {
+     cursor: pointer;
+     display: none;
+}
+
+.header-content {
+     margin-top: 200px;
+     padding-bottom: 50px;
+}
+
+.slider {
+     display: flex;
+     align-items: center;
+}
+
+.slider-txt {
+     margin-left: 85px;
+     width: 90%;
+}
+
+.slider-txt h1 {
+     font-size: 70px;
+     color: #000000;
+     text-transform: uppercase;
+     font-weight: 700;
+     text-align: center;
+}
+
+.slider-txt p {
+     font-size: 18px;
+     color: #000000;
+}
+
+.botones {
+     margin-top: 50px;
+}
+
+
+
+.btn-1:hover {
+     background-color: #DB241B;
+}
+
+.slider-img {
+     width: 50%;
+}
+
+.slider-img img {
+     margin-right: 225px;
+     width: 1200px;
+     align-content: center;
+}
+
+.products {
+     background-color: #ffffff73;
+}
+
+.tabs {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 100px 0px;
+}
+
+.tabs label {
+     width: 15%;
+     order: 1;
+     display: block;
+     padding: 20px 0;
+     text-align: center;
+     cursor: pointer;
+     color: #c3bcbc;
+     font-weight: 700;
+     transition: background ease 0.2s;
+}
+
+.tabs .tab {
+     order: 99;
+     flex-grow: 1;
+     width: 100%;
+     display: none;
+     padding-top: 25px;
+}
+
+.tabs input[type="radio"] {
+     display: none;
+}
+
+.tabs input[type=radio]:checked+label {
+     border-bottom: 2px solid #DB241B;
+     color: #ff0000;
+}
+
+.tabs input[type=radio]:checked+label+.tab {
+     display: block;
+}
+
+.product-img img {
+     width: 150px;
+     height: 120px;
+
+}
+
+.product-txt p {
+     color: #000000;
+     font-size: 16px;
+}
+
+.info {
+     padding: 100px 0px;
+     display: flex;
+     align-items: center;
+}
+
+.info-img {
+     width: 50%;
+}
+
+.info-img img {
+     width: 300px;
+     height: 250px;
+
+}
+
+.info-txt {
+     width: 50%;
+}
+
+.info-txt h2 {
+     font-size: 75px;
+     color: #1c86d7;
+     font-weight: 800;
+     text-transform: uppercase;
+     margin-bottom: 25px;
+}
+
+.info-txt p {
+     font-size: 18px;
+     color: #000000;
+     margin-bottom: 50px;
+
+
+}
+
+.btn-2 {
+     display: inline-block;
+     padding: 15px 35px;
+     background-color: #DB241B;
+     color: #FFFFFF;
+     font-weight: 800;
+     text-transform: uppercase;
+     border-radius: 50px;
+}
+
+.btn-2:hover {
+     background-color: #8c0f08;
+}
+
+.horario {
+     padding: 100px 0px;
+     background-color: #ffffff;
+}
+
+.horario-info h2 {
+     font-size: 75px;
+     color: #f40c0ce6;
+     font-weight: 800;
+     text-transform: uppercase;
+     margin-bottom: 50px;
+}
+
+.txt {
+     color: #3f3737;
+}
+
+.txt h4 {
+     font-size: 18px;
+     color: #000000;
+     margin-bottom: 20px;
+}
+
+.txt p {
+     font-size: 18px;
+     font-weight: 300;
+     margin-bottom: 20px;
+}
+
+.centro {
+     font-size: 28px;
+     color: #172736;
+     margin-bottom: 30px;
+     text-align: center;
+}
+
+.nuevolog {
+     width: 300px;
+}
+
+.contact-info-section {
+     width: 100%;
+     padding: 1rem 0;
+     background-color: #07294d;
+     color: #ffffff;
+     text-align: center;
+}
+
+.links h4 {
+     color: #FFFFFF;
+     text-transform: uppercase;
+     margin-bottom: 25px;
+}
+
+.links ul li a {
+     color: #FFFFFF;
+     font-size: 16px;
+     margin-bottom: 5px;
+     display: inline-block;
+}
+
+@media(max-width: 991px) {
+     .menu {
+          padding: 20px;
+          justify-content: space-between;
+     }
+
+     .menu-2 {
+          display: none;
+     }
+
+     .logo-1 {
+          width: 100px;
+     }
+
+     .logo-2 {
+          width: 0;
+     }
+
+     .menu label {
+          display: initial;
+     }
+
+
+     .menu .navbar ul li {
+          width: 100%;
+     }
+
+     #menu :checked~.navbar {
+          display: initial;
+     }
+
+     .header-content {
+          padding: 30px;
+          margin-top: 100px;
+
+     }
+
+     .slider {
+          flex-direction: column;
+
+     }
+
+     .slider-txt {
+          margin-left: center;
+          margin-bottom: 50px;
+     }
+
+     .slider-txt h1 {
+          font-size: 50px;
+     }
+
+     .btn-1 {
+          padding: 150px 25px;
+          font-size: 14px;
+
+     }
+
+     .slider-img {
+          width: 100%;
+          text-align: center;
+     }
+
+     .tabs {
+          padding: 50px 30px;
+
+     }
+
+     .tabs label {
+          width: 33%;
+     }
+
+     .info {
+          padding: 30px;
+          flex-direction: column;
+     }
+
+     .info-img {
+          width: 100%;
+          text-align: center;
+
+     }
+
+     .info-img img {
+          width: 400px;
+          height: 200px;
+          margin-bottom: 25px;
+     }
+
+     .info-txt {
+          width: 100%;
+          text-align: center;
+     }
+
+     .info-txt h2 {
+          font-size: 50px;
+     }
+
+     .info-txt p {
+          font-size: 16px;
+     }
+
+     .btn-1 {
+          font-size: 16px;
+
+     }
+
+     .horario {
+          padding: 30px;
+          text-align: center;
+     }
+
+     .horario-info h2 {
+          font-size: 50px;
+          margin-bottom: 15px;
+     }
+
+     .horario-txt {
+          flex-direction: column;
+     }
+
+     .socials {
+          justify-content: center;
+     }
+
+     .social img {
+          margin: 8px 0 0 0;
+     }
+
+     .links h4 {
+          margin: 25px 0px 10px 0px;
+     }
+
+}
